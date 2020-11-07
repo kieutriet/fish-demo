@@ -53,10 +53,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins;
-	font-size: 14px;
+	font-family: Poppins, bold;
+	font-size: 30px;
 	line-height: 1.7;
-	color: #666666;
+	color: white;
 	margin: 0px;
 }
 
@@ -128,6 +128,15 @@ iframe {
 .hov1:hover {
   color: white;
   text-decoration: underline;
+}
+
+.upload {
+  height: 350px;
+  width: 70%;
+  margin: auto;
+  border-color: transparent;
+  border-radius: 20px;
+  border: 10px dashed white;
 }
 
 div img {
