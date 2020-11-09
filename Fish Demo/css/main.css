@@ -240,6 +240,14 @@ div img {
   padding: 0 20px 0 23px;
 }
 
+.wrap-upload {
+  width: 50%;
+  position: relative;
+  border: 5px solid;
+  border-radius: 40px;
+  color: white;
+  margin: 10px auto;
+}
 
 /*------------------------------------------------------------------
 [ Focus Input ]*/
@@ -456,5 +464,33 @@ div img {
   .wrap-login100 {
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .wrap-input100 {
+    width: 70%;
+  }
+
+  .login100-form-btn {
+    width: 70%;
+  }
+
+  .wrap-upload {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .wrap-input100 {
+    width: 50%;
+  }
+
+  .login100-form-btn {
+    width: 50%;
+  }
+
+  .wrap-upload {
+    width: 70%;
   }
 }
